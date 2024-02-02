@@ -27,6 +27,7 @@ months_key = {
   'Nov': 11,
   'Dec': 12
 }
+sanitized_subject = ''
 
 for message in messages:
   # this block gets mail starting from a certain date
@@ -57,14 +58,19 @@ for message in messages:
   except Exception as e:
     print(e)
 
+tests = []
 # this goes through the Output folder and marks the tests 
 folder_path = Path('./Output')
 for file_path in folder_path.glob("*.txt"):
   with file_path.open("r") as file:
     if 'T3' in str(file_path):
+      tests.append(file_path)
       file_content = file.read()
       print(f"File: {file_path}")
       # change this function to mark other tests. function(file_content)
       mark_test_T3(file_content) 
       file_path.close()
       file_path.unlink()
+
+with open("testEmailData.js", "w", encoding='utf-8') as file:
+    file.write("const testEmailData = " + sanitized_subject + ";\n")

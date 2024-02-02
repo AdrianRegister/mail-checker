@@ -1,5 +1,6 @@
-import Button from "./components/Button.jsx";
-import PostForm from "./components/PostForm.jsx";
+import Button from './components/Button.jsx';
+import DataReadout from './components/DataReadout.jsx';
+import PostForm from './components/PostForm.jsx';
 
 function App() {
   return (
@@ -9,10 +10,13 @@ function App() {
       </h2>
       <div className="grid grid-cols-4 gap-2 w-3/4 mx-auto">
         <div className="mx-auto">
-          <Button buttonText={"placeholder"} /> {/* REMEMBER PROPS! */}
+          {/* <Button buttonText={'placeholder'} /> {/* REMEMBER PROPS! */}
         </div>
         <div className="mx-auto col-span-2">
-          <PostForm teacherNameValue={""} /> {/* REMEMBER PROPS! */}
+          <PostForm teacherNameValue={''} /> {/* REMEMBER PROPS! */}
+        </div>
+        <div className="col-span-4 mx-auto">
+          <DataReadout />
         </div>
       </div>
     </div>
