@@ -1,0 +1,21 @@
+clear output folder after marking? DONE
+
+auto-send email with grade to teacher from 
+testandexamresults2@cambridgeschool.com
+
+setup GUI (react)
+	create components
+
+setup backend (flask)
+	create database?
+
+
+functionality to retrieve emails (add individual emails to an array?):
+	from a certain date (to a certain date)
+	by level
+	by teacher
+	test or exam
+
+functionality to mark tests / exams:
+	iterate through array and mark
+	send email to teacher with grade
