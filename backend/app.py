@@ -66,10 +66,10 @@ for message in messages:
         get_teacher_name = re.search(r'\(([^)]+)\)$', subject)
         # this puts all email content into a dict, which is then placed into the tests list
         email_test = {
-          'Level': get_level.group(),
-          'Type': get_type_string,
-          'Student Name': get_student_name_string,
-          'Teacher Name': get_teacher_name.group().replace('(', '').replace(')', '')
+          'level': get_level.group(),
+          'type': get_type_string,
+          'studentName': unidecode(get_student_name_string),
+          'teacherName': unidecode(get_teacher_name.group()).replace('(', '').replace(')', '')
         }
         tests.append(email_test)
         # this downloads the email into a .txt file and saves it in the Output folder
@@ -85,7 +85,7 @@ formatted_tests_data = json.dumps(tests, indent=2)
 print(formatted_tests_data)
 
 with open("testEmailData.js", "w", encoding='utf-8') as file:
-    file.write("export const testEmailData = " + formatted_tests_data)
+  file.write("export const testEmailData = " + formatted_tests_data)
 
 
 # GO BACK TO THIS LATER

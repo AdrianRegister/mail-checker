@@ -1,98 +1,98 @@
 export const testEmailData = [
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "Marina ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "Marina ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "Max Gil",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "Max Gil",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "claudia montero",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "claudia montero",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "Clara Carreras",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "Clara Carreras",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "Vinyet ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "Vinyet ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 3",
-    "Student Name": "Alvaro ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 3",
+    "studentName": "Alvaro ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "Max Gil",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "Max Gil",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "Alvaro ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "Alvaro ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "Clara Carreras",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "Clara Carreras",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "Marina ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "Marina ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "Vinyet ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "Vinyet ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 2",
-    "Student Name": "claudia ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 2",
+    "studentName": "claudia ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 1",
-    "Student Name": "Alvaro ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 1",
+    "studentName": "Alvaro ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 1",
-    "Student Name": "Vinyet ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 1",
+    "studentName": "Vinyet ",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 1",
-    "Student Name": "Clara Carreras",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 1",
+    "studentName": "Clara Carreras",
+    "teacherName": "Luke Kania-Patchett"
   },
   {
-    "Level": "T3",
-    "Type": "TEST 1",
-    "Student Name": "claudia ",
-    "Teacher Name": "Luke Kania-Patchett"
+    "level": "T3",
+    "type": "TEST 1",
+    "studentName": "claudia ",
+    "teacherName": "Luke Kania-Patchett"
   }
 ]
